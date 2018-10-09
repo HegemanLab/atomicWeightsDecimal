@@ -1,8 +1,8 @@
 # atomicWeightsDecimal
 
-A Python dictionary of atomic weights in Decimal
+A Python dictionary of atomic weights in Decimal.
 
-Atomic weight measurements are from IUPAC's **Atomic Weights of the Elements: Review 2000** Table 3. IUPAC's measurements includes uncertainity which is not represented here.
+Atomic weight measurements are from IUPAC's **Atomic Weights of the Elements: Review 2000** Table 3. IUPAC's measurements include uncertainity which is not represented here.
 
 ## Implementation
 
