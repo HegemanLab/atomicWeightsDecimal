@@ -1,17 +1,8 @@
-# atomicWeightsDecimal
+# A Python dictionary of atomic weights in Decimal
 
-A Python dictionary of atomic weights in Decimal
+from decimal import Decimal
 
-Atomic weight measurements are from IUPAC's **Atomic Weights of the Elements: Review 2000** Table 3. IUPAC's measurements includes uncertainity which is not represented here.
-
-## Implementation
-
-Atomic elements without a measurement are not included.
-
-Tab characters are used as whitespace to make regex manipulation simple.
-
-```
-{
+iupac = {
 	"H":	Decimal((0,(1,0,0,7,9,4),-5)),
 	"He":	Decimal((0,(4,0,0,2,6,0,2),-6)),
 	"Li":	Decimal((0,(6,9,4,1),-3)),
@@ -97,4 +88,6 @@ Tab characters are used as whitespace to make regex manipulation simple.
 	"Pa":	Decimal((0,(2,3,1,0,3,5,8,8),-5)),
 	"U":	Decimal((0,(2,3,8,0,2,8,9,1),-5))
 }
-```
+
+for element in iupac:
+    print(element,'\t',iupac[element])
