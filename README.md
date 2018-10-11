@@ -1,6 +1,6 @@
 # atomicWeightsDecimal
 
-A Python dictionary of atomic weights in Decimal.
+A Python dictionary of atomic weights in Python Decimal objects.
 
 Atomic weight measurements come from IUPAC's **Atomic Weights of the Elements: Review 2000**. Standard weights are from Table 3. Most-abundant isotope weights are from Part 2.
 
@@ -8,7 +8,7 @@ Atomic weight measurements come from IUPAC's **Atomic Weights of the Elements: R
 
 Per IUPAC, only elements with stable isotopes are included.
 
-Chemical elements can be called from the dictionary using the element's chemical symbol (e.g., `"H"`) as a key which returns a dictionary of weights. The dictionary of weights consists of (1) standard weight, `standard`, and (2) most-abundant isotope weight, `abundant`.
+Chemical elements can be called from the dictionary using the element's chemical symbol (e.g., `"H"`) as a key which returns a dictionary of weights. The dictionary of weights consists of (1) standard weight with the key`standard` and (2) most-abundant isotope weight with the key `abundant`.
 
 All weights, except for <sup>12</sup>C, are stored as Python Decimal objects. Decimal objects are useful for significance arithmetic.
 
