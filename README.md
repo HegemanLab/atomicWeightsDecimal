@@ -1,6 +1,6 @@
 # atomicWeightsDecimal
 
-A Python dictionary of atomic weights in Python Decimal objects.
+A Python dictionary of atomic weights in Decimal objects.
 
 Atomic weight measurements come from IUPAC's **Atomic Weights of the Elements: Review 2000**. Standard weights are from Table 3. Most-abundant isotope weights are from Part 2.
 
