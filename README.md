@@ -10,7 +10,7 @@ Per IUPAC, only elements with stable isotopes are included.
 
 Chemical elements can be called from the dictionary using the element's chemical symbol (e.g., `"H"`) as a key which returns a dictionary of weights. The dictionary of weights consists of (1) standard weight with the key `standard` and (2) most-abundant isotope weight with the key `abundant`.
 
-<sup>12</sup>C is the scale-determining reference for atomic mass units and is precisely `12`. atomicWeightsDecimal defines <sup>12</sup>C, the most abundant isotope of Carbon, as `int(12)`. Mixing Decimal and Integer objects is acceptable and accurate, because significant arithemtic between the two produces a Decimal without measurement resolution degradation and <sup>12</sup>C has infinite resolution.
+<sup>12</sup>C is the scale-determining reference for unified atomic mass units and weights precisely `12 Da`. atomicWeightsDecimal defines the most abundant isotope of Carbon, <sup>12</sup>C, as the integer `12`. In this case, mixing Decimal and Integer objects is acceptable and accurate, because significant arithemtic between the two produces a Decimal without measurement resolution degradation and <sup>12</sup>C has infinite resolution.
 
 Tab characters are used as whitespace in the dictionary to simplify regex manipulation.
 
