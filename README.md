@@ -14,7 +14,7 @@ Using an element's chemical symbol (e.g., `"H"`) as a key returns a sub-dictiona
 
 `Standard atomic weight` or `atomic weight` refers to the weighted average mass of an element's isotopes. 
 
-The `most-abundant isoptope` of an element is important for high resolution mass sepctromentry. For biologically relevant molecules, an elements most-abundant isotope is generally the lightest isotope. An `exact mass` can be calculated from these values.
+The `most-abundant isoptope` of an element is important for high resolution mass sepctromentry. For biologically relevant molecules, an elements most-abundant isotope is usually the lightest isotope. An `exact mass` can be calculated from these values.
 
 Tab characters are used as whitespace in the dictionary to simplify regex manipulation.
 
