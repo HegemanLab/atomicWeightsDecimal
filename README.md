@@ -10,11 +10,11 @@ See [ciaaw.org](https://www.caaw.og) for updated measurements.
 
 Per IUPAC-CIAAW, only elements with stable isotopes are included.
 
-Using the an element's chemical symbol (e.g., `"H"`) as a key atomicWeightsDecimal will return a sub-dictionary as a value. The sub-dictionary contains two keys (1) `standard` for the atomic weight and (2) `abundant` for the atomic mass of the element's most-abundant isotope weight.
+Using an element's chemical symbol (e.g., `"H"`) as a key returns a sub-dictionary. The sub-dictionary contains two keys (1) `standard` for the atomic weight and (2) `abundant` for the atomic mass of the element's most-abundant isotope.
 
-`Standard atomic weight` or `atomic weight` refers to the weighted average mass of an elements isotope. 
+`Standard atomic weight` or `atomic weight` refers to the weighted average mass of an element's isotopes. 
 
-The `most-abundant isoptope mass` of an element is important for high resolution mass sepctromentry. For biologically relevant molecules, an elements most-abundant isotope is generally the lightest isotope.
+The `most-abundant isoptope` of an element is important for high resolution mass sepctromentry. For biologically relevant molecules, an elements most-abundant isotope is generally the lightest isotope. An `exact mass` can be calculated from these values.
 
 Tab characters are used as whitespace in the dictionary to simplify regex manipulation.
 
